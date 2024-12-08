@@ -1,0 +1,176 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Josh\\OneDrive\\Desktop\\workspace\\Labs\\TacoFastFood\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0EBFA476-FA06-4E2E-BF66-FBDD598B92AA}|TacoFastFoodAPI.csproj|c:\\users\\josh\\onedrive\\desktop\\workspace\\labs\\tacofastfood\\controllers\\comboscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EBFA476-FA06-4E2E-BF66-FBDD598B92AA}|TacoFastFoodAPI.csproj|solutionrelative:controllers\\comboscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EBFA476-FA06-4E2E-BF66-FBDD598B92AA}|TacoFastFood.csproj|c:\\users\\josh\\onedrive\\desktop\\workspace\\labs\\tacofastfood\\controllers\\drinkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EBFA476-FA06-4E2E-BF66-FBDD598B92AA}|TacoFastFood.csproj|solutionrelative:controllers\\drinkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EBFA476-FA06-4E2E-BF66-FBDD598B92AA}|TacoFastFoodAPI.csproj|c:\\users\\josh\\onedrive\\desktop\\workspace\\labs\\tacofastfood\\models\\fastfoodtacodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EBFA476-FA06-4E2E-BF66-FBDD598B92AA}|TacoFastFoodAPI.csproj|solutionrelative:models\\fastfoodtacodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EBFA476-FA06-4E2E-BF66-FBDD598B92AA}|TacoFastFoodAPI.csproj|c:\\users\\josh\\onedrive\\desktop\\workspace\\labs\\tacofastfood\\models\\taco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EBFA476-FA06-4E2E-BF66-FBDD598B92AA}|TacoFastFoodAPI.csproj|solutionrelative:models\\taco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EBFA476-FA06-4E2E-BF66-FBDD598B92AA}|TacoFastFoodAPI.csproj|c:\\users\\josh\\onedrive\\desktop\\workspace\\labs\\tacofastfood\\models\\drink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EBFA476-FA06-4E2E-BF66-FBDD598B92AA}|TacoFastFoodAPI.csproj|solutionrelative:models\\drink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EBFA476-FA06-4E2E-BF66-FBDD598B92AA}|TacoFastFoodAPI.csproj|c:\\users\\josh\\onedrive\\desktop\\workspace\\labs\\tacofastfood\\models\\combo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EBFA476-FA06-4E2E-BF66-FBDD598B92AA}|TacoFastFoodAPI.csproj|solutionrelative:models\\combo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EBFA476-FA06-4E2E-BF66-FBDD598B92AA}|TacoFastFood.csproj|c:\\users\\josh\\onedrive\\desktop\\workspace\\labs\\tacofastfood\\controllers\\tacoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EBFA476-FA06-4E2E-BF66-FBDD598B92AA}|TacoFastFood.csproj|solutionrelative:controllers\\tacoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EBFA476-FA06-4E2E-BF66-FBDD598B92AA}|TacoFastFood.csproj|c:\\users\\josh\\onedrive\\desktop\\workspace\\labs\\tacofastfood\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EBFA476-FA06-4E2E-BF66-FBDD598B92AA}|TacoFastFood.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Drink.cs",
+              "DocumentMoniker": "C:\\Users\\Josh\\OneDrive\\Desktop\\workspace\\Labs\\TacoFastFood\\Models\\Drink.cs",
+              "RelativeDocumentMoniker": "Models\\Drink.cs",
+              "ToolTip": "C:\\Users\\Josh\\OneDrive\\Desktop\\workspace\\Labs\\TacoFastFood\\Models\\Drink.cs",
+              "RelativeToolTip": "Models\\Drink.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T23:24:53.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CombosController.cs",
+              "DocumentMoniker": "C:\\Users\\Josh\\OneDrive\\Desktop\\workspace\\Labs\\TacoFastFood\\Controllers\\CombosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CombosController.cs",
+              "ToolTip": "C:\\Users\\Josh\\OneDrive\\Desktop\\workspace\\Labs\\TacoFastFood\\Controllers\\CombosController.cs",
+              "RelativeToolTip": "Controllers\\CombosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T22:20:31.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DrinksController.cs",
+              "DocumentMoniker": "C:\\Users\\Josh\\OneDrive\\Desktop\\workspace\\Labs\\TacoFastFood\\Controllers\\DrinksController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DrinksController.cs",
+              "ToolTip": "C:\\Users\\Josh\\OneDrive\\Desktop\\workspace\\Labs\\TacoFastFood\\Controllers\\DrinksController.cs",
+              "RelativeToolTip": "Controllers\\DrinksController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T22:13:37.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FastFoodTacoDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Josh\\OneDrive\\Desktop\\workspace\\Labs\\TacoFastFood\\Models\\FastFoodTacoDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\FastFoodTacoDbContext.cs",
+              "ToolTip": "C:\\Users\\Josh\\OneDrive\\Desktop\\workspace\\Labs\\TacoFastFood\\Models\\FastFoodTacoDbContext.cs",
+              "RelativeToolTip": "Models\\FastFoodTacoDbContext.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAiwC8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T22:11:57.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TacosController.cs",
+              "DocumentMoniker": "C:\\Users\\Josh\\OneDrive\\Desktop\\workspace\\Labs\\TacoFastFood\\Controllers\\TacosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TacosController.cs",
+              "ToolTip": "C:\\Users\\Josh\\OneDrive\\Desktop\\workspace\\Labs\\TacoFastFood\\Controllers\\TacosController.cs",
+              "RelativeToolTip": "Controllers\\TacosController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAqwCMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T22:14:53.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Combo.cs",
+              "DocumentMoniker": "C:\\Users\\Josh\\OneDrive\\Desktop\\workspace\\Labs\\TacoFastFood\\Models\\Combo.cs",
+              "RelativeDocumentMoniker": "Models\\Combo.cs",
+              "ToolTip": "C:\\Users\\Josh\\OneDrive\\Desktop\\workspace\\Labs\\TacoFastFood\\Models\\Combo.cs",
+              "RelativeToolTip": "Models\\Combo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAtwBMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T22:29:05.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Taco.cs",
+              "DocumentMoniker": "C:\\Users\\Josh\\OneDrive\\Desktop\\workspace\\Labs\\TacoFastFood\\Models\\Taco.cs",
+              "RelativeDocumentMoniker": "Models\\Taco.cs",
+              "ToolTip": "C:\\Users\\Josh\\OneDrive\\Desktop\\workspace\\Labs\\TacoFastFood\\Models\\Taco.cs",
+              "RelativeToolTip": "Models\\Taco.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T23:19:55.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Josh\\OneDrive\\Desktop\\workspace\\Labs\\TacoFastFood\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Josh\\OneDrive\\Desktop\\workspace\\Labs\\TacoFastFood\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T22:12:18.476Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
