@@ -166,3 +166,4 @@ C:\Users\Josh\OneDrive\Desktop\workspace\Labs\TacoFastFood\obj\Debug\net8.0\refi
 C:\Users\Josh\OneDrive\Desktop\workspace\Labs\TacoFastFood\obj\Debug\net8.0\TacoFastFoodAPI.pdb
 C:\Users\Josh\OneDrive\Desktop\workspace\Labs\TacoFastFood\obj\Debug\net8.0\TacoFastFoodAPI.genruntimeconfig.cache
 C:\Users\Josh\OneDrive\Desktop\workspace\Labs\TacoFastFood\obj\Debug\net8.0\ref\TacoFastFoodAPI.dll
+C:\Users\Josh\OneDrive\Desktop\workspace\Labs\TacoFastFood\obj\Debug\net8.0\TacoFastFoodAPI.sourcelink.json

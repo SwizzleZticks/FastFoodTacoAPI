@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace TacoFastFoodAPI.Models;
+﻿namespace TacoFastFoodAPI.Models;
 
 public partial class Drink
 {
@@ -12,7 +9,4 @@ public partial class Drink
     public float? Cost { get; set; }
 
     public bool? Slushie { get; set; }
-
-    //public virtual ICollection<Combo> Combos { get; set; } = new List<Combo>();
-
 }

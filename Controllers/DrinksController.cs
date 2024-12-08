@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using TacoFastFoodAPI.Models;
 
@@ -35,12 +34,9 @@ namespace TacoFastFood.Controllers
         [HttpGet("/Drinks/{id}")]
         public async Task<ActionResult<Drink>> GetDrinkById(int id)
         {
-            if (DrinkExists(id))
-            {
-                Drink? queriedDrink = await _context.Drinks.FindAsync(id);
-                return Ok(queriedDrink);
-            }
-            return NotFound("Taco not found");
+            Drink? queriedDrink = await _context.Drinks.FindAsync(id);
+
+            return queriedDrink != null ? Ok(queriedDrink) : NotFound();
         }
 
         [HttpPost("/Drinks")]
@@ -75,11 +71,6 @@ namespace TacoFastFood.Controllers
             await _context.SaveChangesAsync();
 
             return Ok(existingItem);
-        }
-
-        private bool DrinkExists(int id)
-        {
-            return (_context.Drinks?.Any(d => d.Id == id)).GetValueOrDefault();
         }
     }
 }

@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace TacoFastFoodAPI.Models;
+﻿namespace TacoFastFoodAPI.Models;
 
 public partial class Taco
 {
@@ -14,6 +11,4 @@ public partial class Taco
     public bool? SoftShell { get; set; }
 
     public bool? Chips { get; set; }
-
-    //public virtual ICollection<Combo> Combos { get; set; } = new List<Combo>();
 }

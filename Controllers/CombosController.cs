@@ -1,7 +1,5 @@
-﻿
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using System.Reflection.Metadata.Ecma335;
 using TacoFastFoodAPI.Models;
 
 namespace TacoFastFoodAPI.Controllers
@@ -35,15 +33,35 @@ namespace TacoFastFoodAPI.Controllers
         public async Task<ActionResult<Combo>> GetComboById(int id)
         {
             Combo? queriedCombo = await _context.Combos.Include(c => c.Taco)
-                                                        .Include(c => c.Drink)
-                                                        .FirstOrDefaultAsync(c => c.Id == id);
+                                                       .Include(c => c.Drink)
+                                                       .FirstOrDefaultAsync(c => c.Id == id);
 
             return queriedCombo != null ? Ok(queriedCombo) : NotFound(); 
         }
 
-        private bool ComboExists(int id)
+        [HttpPost("/Combos")]
+        public async Task<ActionResult<Drink>> CreateCombo([FromBody] Combo aCombo)
         {
-            return (_context.Combos?.Any(c => c.Id == id)).GetValueOrDefault();
+            _context.Add(aCombo);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction(nameof(GetComboById), new { id = aCombo.Id }, aCombo);
+        }
+
+        [HttpDelete("/Combos/{id}")]
+        public async Task<ActionResult<int>> DeleteCombo(int id)
+        {
+            var aCombo = await _context.Combos.FindAsync(id);
+
+            if (aCombo == null)
+            {
+                return NotFound("Combo not found");
+            }
+
+            _context.Combos.Remove(aCombo);
+            await _context.SaveChangesAsync();
+
+            return NoContent();
         }
     }
 }
