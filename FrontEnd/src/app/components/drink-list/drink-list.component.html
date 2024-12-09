@@ -1,0 +1,20 @@
+<h2>Drinks</h2>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Cost</th>
+      <th>Is Slushie</th>
+    </tr>
+  </thead>
+  <tbody>
+    @for (drink of drinks; track drink.id) {
+    <tr>
+      <td>{{ drink.name }}</td>
+      <td>{{ drink.cost | currency }}</td>
+      <td>{{ drink.slushie ? "Yes" : "-" }}</td>
+    </tr>
+    }
+  </tbody>
+</table>

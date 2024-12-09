@@ -15,7 +15,7 @@ namespace TacoFastFood.Controllers
             _context = context;
         }
 
-        [HttpGet("/Tacos")]
+        [HttpGet]
         public async Task<ActionResult<Taco>> GetTacos(bool? isSoftShell)
         {
             List<Taco> tacos = new List<Taco>();
@@ -38,7 +38,7 @@ namespace TacoFastFood.Controllers
             }
         }
 
-        [HttpGet("/Tacos/{id}")]
+        [HttpGet("{id}")]
         public async Task<ActionResult<Taco>> GetTacoById(int id)
         {
             Taco? queriedTaco = await _context.Tacos.FindAsync(id);
@@ -46,7 +46,7 @@ namespace TacoFastFood.Controllers
             return queriedTaco != null ? Ok(queriedTaco) : NotFound();
         }
 
-        [HttpPost("/Tacos")]
+        [HttpPost]
         public async Task<ActionResult<Taco>> CreateTaco([FromBody] Taco aTaco)
         {
             _context.Add(aTaco);
@@ -55,7 +55,7 @@ namespace TacoFastFood.Controllers
             return CreatedAtAction(nameof(GetTacoById), new { id = aTaco.Id }, aTaco);
         }
 
-        [HttpDelete("/Tacos/{id}")]
+        [HttpDelete("{id}")]
         public async Task<ActionResult<int>> DeleteTaco(int id)
         {
             var aTaco = await _context.Tacos.FindAsync(id);

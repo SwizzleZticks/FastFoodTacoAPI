@@ -15,7 +15,7 @@ namespace TacoFastFood.Controllers
             _context = context;
         }
 
-        [HttpGet("/Drinks")]
+        [HttpGet]
         public async Task<ActionResult<Drink>> GetDrinks(string? sortByCost)
         {
             IQueryable<Drink> query = _context.Drinks;
@@ -31,7 +31,7 @@ namespace TacoFastFood.Controllers
             return Ok(drinkList);
         }
 
-        [HttpGet("/Drinks/{id}")]
+        [HttpGet("{id}")]
         public async Task<ActionResult<Drink>> GetDrinkById(int id)
         {
             Drink? queriedDrink = await _context.Drinks.FindAsync(id);
@@ -39,7 +39,7 @@ namespace TacoFastFood.Controllers
             return queriedDrink != null ? Ok(queriedDrink) : NotFound();
         }
 
-        [HttpPost("/Drinks")]
+        [HttpPost]
         public async Task<ActionResult<Drink>> CreateDrink([FromBody] Drink aDrink)
         {
             _context.Add(aDrink);
@@ -48,7 +48,7 @@ namespace TacoFastFood.Controllers
             return CreatedAtAction(nameof(GetDrinkById), new { id = aDrink.Id }, aDrink);
         }
 
-        [HttpPut("/Drinks/{id}")]
+        [HttpPut("{id}")]
         public async Task<ActionResult<Drink>> UpdateDrink([FromBody] Drink aDrink, int id)
         {
             if (aDrink == null)

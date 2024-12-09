@@ -167,3 +167,9 @@ C:\Users\Josh\OneDrive\Desktop\workspace\Labs\TacoFastFood\obj\Debug\net8.0\Taco
 C:\Users\Josh\OneDrive\Desktop\workspace\Labs\TacoFastFood\obj\Debug\net8.0\TacoFastFoodAPI.genruntimeconfig.cache
 C:\Users\Josh\OneDrive\Desktop\workspace\Labs\TacoFastFood\obj\Debug\net8.0\ref\TacoFastFoodAPI.dll
 C:\Users\Josh\OneDrive\Desktop\workspace\Labs\TacoFastFood\obj\Debug\net8.0\TacoFastFoodAPI.sourcelink.json
+C:\Users\Josh\OneDrive\Desktop\workspace\Labs\TacoFastFood\bin\Debug\net8.0\FrontEnd\angular.json
+C:\Users\Josh\OneDrive\Desktop\workspace\Labs\TacoFastFood\bin\Debug\net8.0\FrontEnd\package-lock.json
+C:\Users\Josh\OneDrive\Desktop\workspace\Labs\TacoFastFood\bin\Debug\net8.0\FrontEnd\package.json
+C:\Users\Josh\OneDrive\Desktop\workspace\Labs\TacoFastFood\bin\Debug\net8.0\FrontEnd\tsconfig.app.json
+C:\Users\Josh\OneDrive\Desktop\workspace\Labs\TacoFastFood\bin\Debug\net8.0\FrontEnd\tsconfig.json
+C:\Users\Josh\OneDrive\Desktop\workspace\Labs\TacoFastFood\bin\Debug\net8.0\FrontEnd\tsconfig.spec.json

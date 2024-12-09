@@ -15,7 +15,7 @@ namespace TacoFastFoodAPI.Controllers
             _context = context;
         }
 
-        [HttpGet("/Combos")]
+        [HttpGet]
         public async Task<ActionResult<Combo>> GetCombos()
         {
             try
@@ -29,7 +29,7 @@ namespace TacoFastFoodAPI.Controllers
             }
         }
 
-        [HttpGet("/Combos/{id}")]
+        [HttpGet("{id}")]
         public async Task<ActionResult<Combo>> GetComboById(int id)
         {
             Combo? queriedCombo = await _context.Combos.Include(c => c.Taco)
@@ -39,7 +39,7 @@ namespace TacoFastFoodAPI.Controllers
             return queriedCombo != null ? Ok(queriedCombo) : NotFound(); 
         }
 
-        [HttpPost("/Combos")]
+        [HttpPost]
         public async Task<ActionResult<Drink>> CreateCombo([FromBody] Combo aCombo)
         {
             _context.Add(aCombo);
@@ -48,7 +48,7 @@ namespace TacoFastFoodAPI.Controllers
             return CreatedAtAction(nameof(GetComboById), new { id = aCombo.Id }, aCombo);
         }
 
-        [HttpDelete("/Combos/{id}")]
+        [HttpDelete("{id}")]
         public async Task<ActionResult<int>> DeleteCombo(int id)
         {
             var aCombo = await _context.Combos.FindAsync(id);
