@@ -40,12 +40,13 @@ namespace TacoFastFood.Controllers
         }
 
         [HttpPost]
+        [ProducesResponseType(StatusCodes.Status201Created)]
         public async Task<ActionResult<Drink>> CreateDrink([FromBody] Drink aDrink)
         {
             _context.Add(aDrink);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(GetDrinkById), new { id = aDrink.Id }, aDrink);
+            return aDrink;
         }
 
         [HttpPut("{id}")]
@@ -56,21 +57,16 @@ namespace TacoFastFood.Controllers
                 return BadRequest("Updated item cannot be null.");
             }
 
-            var existingItem = await _context.Drinks.FindAsync(id);
+            var existingDrink = await _context.Drinks.FindAsync(id);
 
-            if (existingItem == null)
+            if (existingDrink == null)
             {
                 return NotFound($"Drink with ID {id} not found.");
             }
 
-            existingItem.Id = id;
-            existingItem.Name = aDrink.Name;
-            existingItem.Cost = aDrink.Cost;
-            existingItem.Slushie = aDrink.Slushie;
-
             await _context.SaveChangesAsync();
 
-            return Ok(existingItem);
+            return Ok(id);
         }
     }
 }

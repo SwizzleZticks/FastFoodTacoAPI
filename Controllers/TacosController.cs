@@ -16,6 +16,7 @@ namespace TacoFastFood.Controllers
         }
 
         [HttpGet]
+        [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<ActionResult<Taco>> GetTacos(bool? isSoftShell)
         {
             List<Taco> tacos = new List<Taco>();
@@ -47,12 +48,13 @@ namespace TacoFastFood.Controllers
         }
 
         [HttpPost]
+        [ProducesResponseType(StatusCodes.Status201Created)]
         public async Task<ActionResult<Taco>> CreateTaco([FromBody] Taco aTaco)
         {
             _context.Add(aTaco);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(GetTacoById), new { id = aTaco.Id }, aTaco);
+            return aTaco;
         }
 
         [HttpDelete("{id}")]

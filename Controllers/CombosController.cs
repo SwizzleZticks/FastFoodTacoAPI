@@ -16,6 +16,7 @@ namespace TacoFastFoodAPI.Controllers
         }
 
         [HttpGet]
+        [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<ActionResult<Combo>> GetCombos()
         {
             try
@@ -40,12 +41,13 @@ namespace TacoFastFoodAPI.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Drink>> CreateCombo([FromBody] Combo aCombo)
+        [ProducesResponseType(StatusCodes.Status201Created)]
+        public async Task<ActionResult<Combo>> CreateCombo([FromBody]Combo aCombo)
         {
             _context.Add(aCombo);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(GetComboById), new { id = aCombo.Id }, aCombo);
+            return aCombo;
         }
 
         [HttpDelete("{id}")]
